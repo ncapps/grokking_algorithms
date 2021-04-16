@@ -42,3 +42,13 @@ This repository contains every image in Grokking Algorithms in high resolution. 
 - All function calls go onto the call stack
 - The call stack can get very large, which takes up a lot of memory
 
+### Chapter 4. Quicksort
+- Divide and Conquer (D&C) works by breaking a problem into smaller and smaller pieces. If you're using D&X on a list, the base case is probably an empty array or an array with one element
+- To solve a problem using D&C, there are two steps:
+  1. Figure out the base case. This should be the simplest possible case.
+  2. Divide or decrease your problem until it becomes the base case.
+- D&C isn't a simple algorithm that you can apply to a problem. It's a way to think about a problem.
+- If you're implementing quicksort, choose a random element as the pivot. The average runtime of quicksort is O(n log n)
+- The constant in Big O notation can matter sometimes. This is why quicksort is faster than merge sort
+- The constant almost never matters for simple search versus binary search, because O(log n) is so much faster than O(n) when your list gets big.
+
