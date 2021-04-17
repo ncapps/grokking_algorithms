@@ -52,3 +52,10 @@ This repository contains every image in Grokking Algorithms in high resolution. 
 - The constant in Big O notation can matter sometimes. This is why quicksort is faster than merge sort
 - The constant almost never matters for simple search versus binary search, because O(log n) is so much faster than O(n) when your list gets big.
 
+### Chapter 5. Hash Tables
+- Hash tables have really fast search, insert, and delete.
+- Hash tables are good for modeling relationships from one item to another item.
+- Hash tables are used for caching data (for example, with a web server).
+- Hash tables are great for catching duplicates.
+
+
